@@ -1,0 +1,62 @@
+body{
+    background-color:black;
+    
+}
+.card
+{
+    
+    width: 50%;
+    height: 300px;
+    background-image:url('images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color:#02154f;
+    margin:50px auto 0;
+    border-radius:20px;
+    padding: 15px 40px;
+    text-align:center;
+    font-weight: 600;
+}
+.search{
+
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    width: 60px;
+}
+.weatherIcon{
+    margin-top: 10px;
+    width:50px;
+    height:50px;
+    
+}
+.wheather h1{
+    font-size: 20px;
+    font-weight:400;
+}
+.wheather h2{
+    font-size:15px;
+    font-weight:400;
+}
+.details{
+   display:flex;
+   align-items: center; 
+   justify-content:space-between;
+}
+.col{
+    display:flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width:20px;
+    margin-right:10px;
+}
+.searchBtn{
+    background-color: rgb(3, 3, 104);
+    color: #ffff;
+    border-color: rgb(3, 3, 104);
+    border-radius: 15px;
+}
